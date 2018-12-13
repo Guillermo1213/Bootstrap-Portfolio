@@ -1,0 +1,46 @@
+/**
+Stylesheet for index.html
+**/
+
+/* Responsive properties for Medium-Large screens
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    /* justify-content: flex-end;
+} */ 
+
+/*Responsive properties for Medium-Large screens */
+@media all and (max-width: 800px) {
+    .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    }
+}
+  
+/* Small screens */
+@media all and (max-width: 500px) {
+    .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    }
+}
+
+.container {
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-around; 
+}
+
+.parent {
+    display: flex;
+    height: auto;
+}
+
+.child {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
